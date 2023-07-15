@@ -10,15 +10,15 @@ public class TestSpring {
 
 //        Music musicBeen = context.getBean("musicBeen", Music.class);
 //
-        MusicPlayer firstMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-        MusicPlayer secondMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-
-        System.out.println(firstMusicPlayer);
-        System.out.println(secondMusicPlayer);
-
-        firstMusicPlayer.playMusicList();
-
-        System.out.println(firstMusicPlayer.getVolume());
+//        MusicPlayer firstMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+//        MusicPlayer secondMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+//
+//        System.out.println(firstMusicPlayer);
+//        System.out.println(secondMusicPlayer);
+//
+//        firstMusicPlayer.playMusicList();
+//
+//        System.out.println(firstMusicPlayer.getVolume());
 
 //        System.out.println(testBeen.getName());
 
